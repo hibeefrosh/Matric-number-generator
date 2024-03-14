@@ -1,0 +1,55 @@
+# Matric Number Generator
+
+## Overview
+
+The Matric Number Generator is a web application designed to manage student information, generate matriculation numbers, and provide essential features for student authentication and management.
+
+## Features
+
+- **User Registration**: Students can register with their details to obtain a matriculation number.
+- **Matric Number Generation**: The system generates unique matriculation numbers based on department codes and student details.
+- **Dashboard**: Students can access a personalized dashboard after login, displaying essential information.
+- **Account Settings**: Users can update their profile information and change their passwords securely.
+
+## Tech Stack
+
+- **PHP**: Backend scripting language.
+- **MySQL**: Database management system.
+- **HTML, CSS, Tailwind CSS**: Frontend and styling.
+- **Apache**: Web server.
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+- PHP
+- MySQL
+- Apache
+
+## Installation
+
+1. **Set up the database**:
+
+    - Create a new MySQL database.
+    - Import the SQL file located at `/database/matric-number-generator.sql`.
+
+2. **Configure database connection**:
+
+    - Open `/config/database.php`.
+    - Update database connection details.
+
+3. **Start the Apache server**:
+
+    - Make sure Apache is running.
+
+4. **Access the application**:
+
+    - Open your web browser and go to http://localhost/matricno-generator.
+
+## Usage
+
+- **Admin Login Credentials**:
+    - **Email**: admin@example.com
+    - **Password**: admin_password
+
+- Explore the various features of the application, such as user registration, matric number generation, and account settings.
